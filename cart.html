@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html id="cart">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/all.min.css"/>
+	<link rel="stylesheet"  href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<title>my shop</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+  	<img src="img/logo.jpg" class="img-logo">
+    <a class="navbar-brand " href="#">my shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+       <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ms-auto p-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shop">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">contacts</a>
+        </li>
+        
+      </ul>
+                  <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" id="search_field"  placeholder="Search" aria-label="Search">
+            </form>
+            <button type="button" class="btn btn-success my-2 my-sm-0" data-toggle="modal"
+               data-target="#staticBackdrop">
+                <i class="fas fa-shopping-cart total-count"></i>
+            </button>
+       <form class="d-flex flex-row position-relative me-3 pb-2 ">
+<div class="dropdown">
+  <button class="btn btn-third dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  </button>
+<ul class="dropdown-menu menu text-center" aria-labelledby="dropdownMenuButton1" id="menu">
+<li><a class="dropdown-item" href="indoorfile.html" id="indoorfil">Indoor</a></li>
+<li><a class="dropdown-item" href="#">Outdoor</a></li>
+<li><a class="dropdown-item" href="#">Greenwall</a></li>
+<li><a class="dropdown-item" href="seasonal.html">Seasonal</a></li>
+<li><a class="dropdown-item" href="#">herbal</a></li>
+<li><a class="dropdown-item" href="#">catcus</a></li>
+<li><a class="dropdown-item" href="#">carpet</a></li>
+<li><a class="dropdown-item" href="#">seedlings</a></li>
+</ul>
+</div>
+</div>
+</form>
+ <a href="register.html"><button type="button" class="btn btn-primary me-3 pb-1 mb-1">login</button></a>
+</div>
+</div>
+</nav>
+
+<!-----------landing---->
+
+    
+    <div class="container">
+        <header>
+            <div class="title">PRODUCT LIST</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProduct">
+
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+</div>
+
+
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js.map"></script>
+<script src="js/bootstrap.bundle.min.js.map"></script>
+<script src="main2.js"></script>
+</body>
+</html>
